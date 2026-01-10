@@ -28,3 +28,4 @@ coverage
 
 # Vite
 dist
+node_modules
