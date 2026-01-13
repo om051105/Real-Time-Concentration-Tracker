@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+authors:
+  - family-names: "Singh"
+    given-names: "Om"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "FocusAI: Real-Time Attention Analysis Mechanism"
+version: 1.0.0
+date-released: 2026-01-14
+url: "https://github.com/om051105/Real-Time-Concentration-Tracker"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Singh"
+    given-names: "Om"
+  journal: "arXiv preprint cs.CV"
+  title: "Deep Learning Approaches to Real-Time Gaze Estimation"
+  year: 2026
