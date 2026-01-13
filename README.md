@@ -1,30 +1,39 @@
-# FocusFlow | Real-Time Concentration Tracker
+#  FocusAI (Real-Time Concentration Tracker)
 
-FocusFlow is a premium, AI-powered web application that monitors your concentration levels in real-time using your webcam. It detects distractions such as phone usage or looking away from the screen and provides immediate feedback.
+<div align='center'>
 
-## Features
--   **Real-Time AI Detection**: Uses TensorFlow.js to run `Coco-SSD` (Object Detection) and `FaceMesh` (Head Pose) directly in your browser.
--   **Privacy First**: No video data is sent to any server. All processing happens locally on your device.
--   **Concentration Score**: A dynamic score that drops when distracted and recovers when you focus.
--   **Phone Detection**: Automatically alerts you if a mobile phone is detected in the frame.
--   **Modern Dashboard**: A sleek, dark-mode interface with glassmorphism effects.
+![Build Status](https://img.shields.io/github/actions/workflow/status/om051105/Real-Time-Concentration-Tracker/main.yml?label=build&style=flat-square)
+![License](https://img.shields.io/github/license/om051105/Real-Time-Concentration-Tracker?style=flat-square)
+![Issues](https://img.shields.io/github/issues/om051105/Real-Time-Concentration-Tracker?style=flat-square)
 
-## How to Run
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fom051105%2FReal-Time-Concentration-Tracker)
 
-1.  Open a terminal in this directory.
-2.  Install dependencies (if you haven't already):
-    ```bash
-    npm install
-    ```
-3.  Start the development server:
-    ```bash
-    npm run dev
-    ```
-4.  Open the link provided (usually `http://localhost:5173`) in your browser.
-5.  **Allow Camera Access**: You must allow the browser to access your webcam for the tracker to work.
+</div>
 
-## Technology Stack
--   **React + Vite**: Fast frontend framework.
--   **TensorFlow.js**: Client-side Machine Learning.
--   **Tailwind-style CSS**: Custom Vanilla CSS using modern variables.
--   **Lucide React**: Icons.
+##  Overview
+**FocusAI** is a sophisticated computer vision system designed to analyze and improve user productivity in real-time. By leveraging **Deep Learning** models for gaze tracking and facial landmark detection, it provides granular insights into attention spans.
+
+## 🚀 Key Features
+*   **👀 Gaze & Head Pose Estimation**: Uses advanced geometric algorithms.
+*   **📉 Real-Time Distraction Alerts**: Gentle notifications when focus drifts.
+*   ** Productivity Dashboard**: React-based frontend visualizing focus trends.
+*   ** Privacy First**: All video processing happens locally.
+
+##  Tech Stack
+*   **AI Engine**: TensorFlow / MediaPipe Face Mesh
+*   **Processing**: Python (OpenCV)
+*   **Frontend**: React.js, Chart.js
+
+##  Installation
+\\\ash
+git clone https://github.com/om051105/Real-Time-Concentration-Tracker.git
+cd Real-Time-Concentration-Tracker
+pip install -r backend/requirements.txt
+python backend/app.py
+\\\
+"@
+
+ = @"
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
